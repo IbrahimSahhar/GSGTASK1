@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- the website made by :  -->
+    <meta name="anchor" content="Ibrahim jehad al sahhar" />
+    <!-- keyword meta  -->
+    <meta name="keyword" content="html css form website " />
+    <!-- Icon Of Website -->
+    <link rel="icon" type="png/jpeg" href="/image/photo_٢٠٢٢-٠٤-٢٣_١٤-٣٠-٤٤.jpg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Basic Html From</title>
+    <!-- style of page  -->
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        form {
+            width: 700px;
+            margin: 100px auto;
+            text-align: left;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        
+        form .name {
+            margin-top: 40px;
+        }
+        
+        form .name,
+        form .otherQuestion {
+            position: relative;
+            width: 650px;
+            margin: 15px auto;
+            margin-bottom: 0px;
+            border: 1px solid black;
+            padding: 15px 10px;
+        }
+        
+        form .name h3,
+        form .otherQuestion h3 {
+            position: absolute;
+            left: 12px;
+            top: -13px;
+            background-color: white;
+        }
+        
+        form input[value="submit"] {
+            margin-top: 20px;
+            padding: 0 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <h1>Basic HTML Form</h1>
+        <!-- section one  -->
+        <section class="name">
+            <h3>Name</h3>
+            <br>
+            <label for="firstName">First Name</label>
+            <br>
+            <input type="text" name="firstName">
+            <br>
+            <br>
+            <label for="lastName">Last Name</label>
+            <br>
+            <input type="text" name="lastName">
+        </section>
+        <!-- section two  -->
+        <section class="otherQuestion">
+            <h3>Other Question</h3>
+            <br>
+            <h4>Choose a drink :</h4>
+            <input type="radio" name="Question">
+            <label for="">coffee</label>
+            <br>
+            <input type="radio" name="Question">
+            <label for="">tea</label>
+            <br>
+            <input type="radio" name="Question">
+            <label for="">hot chocolate</label>
+            <br>
+            <br>
+            <h4>what ice cream do you like ?</h4>
+            <input type="checkbox">
+            <label for="">Chocolate </label>
+            <br>
+            <input type="checkbox">
+            <label for="">Chocolate Pudding</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Chocolate Peanut Butter</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Vanilla</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Strawberry</label>
+            <br>
+            <br>
+            <h4>Select a school : </h4>
+
+            <select name="school">
+               <option value="harvard">harvard</option>
+               <option value="Columbia">Columbia  </option>
+               <option value="Yale">Yale  </option>
+               <option value="Stanford">Stanford  </option>
+            </select>
+            <br>
+            <br>
+            <h4>Please Provide Comments : </h4>
+            <textarea name="" id="" cols="35" rows="5"></textarea>
+
+        </section>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
